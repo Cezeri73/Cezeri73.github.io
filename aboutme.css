@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  .header {
+    font-size: 30px;
+    /* font-size: large; */
+    /* padding-top: 20px; */
+    height: 150px;
+    text-align: center;
+    background-color: #d9e5ee;
+  }
+  .paragraph-Part {
+    /* width: 50%; */
+    background-color: #46bdf5;
+    /* margin-top: 150px;
+    margin-left: 250px;
+    margin-right: 250px; */
+    text-align: center;
+    text-align: justify;
+  }
+  .paragraph-Part p {
+    position: relative;
+
+    margin: 25px 105px 25px 105px;
+    font-family: cursive;
+    font-size: 45px;
+    color: rgb(0, 0, 0);
+    text-decoration: dashed;
+  }
+  /* .img-part {
+    text-align: right;
+  } */
+  .footer {
+    position: static;
+    left: 0;
+
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-align: center;
+  }
+  img {
+    height: 120px;
+  }
+  .nav {
+    background-color: rgb(199, 228, 171);
+    margin-left: 38%;
+    margin-right: 36%;
+    font-size: 50px;
+  }
+  a {
+    text-decoration: none;
+  }
+  h2{
+    
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 30px;
+  }
+  .navigation-part{
+    margin-bottom: 30px;
+    background-color: beige;
+  }
