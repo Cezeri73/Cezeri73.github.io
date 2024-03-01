@@ -1,0 +1,64 @@
+/*CENG311 Activity 2 css file*/
+
+/*styling for the table goes here*/
+body 
+{
+	width: 750px;
+	margin: 0 auto;
+}
+#sayfa{
+	
+	
+	border: 2px solid  ;
+}
+#sayfa>table{
+	margin: auto;
+	margin-bottom: 40px;
+	
+	
+
+}
+#sayfa>h1{
+	text-align: center;
+}
+table 
+{	
+	border-collapse: collapse;
+	border: 1px solid black;
+	margin: 20px;
+}
+
+thead 
+{
+	background-color: yellow;
+}
+
+th, td 
+{
+	border: 1px solid black;
+	padding: .2em 1em .2em .5em;
+	text-align: left;
+	vertical-align: middle;
+}
+#total{
+	
+height: 30px;
+
+}
+#total>td{
+	text-align: right;
+	font-weight: bold;
+}
+.right{
+	text-align: right;
+}
+
+
+
+tbody tr:nth-child(even) td 
+{
+	background-color: yellow;
+}
+#dep{
+	background-color: white;
+}
