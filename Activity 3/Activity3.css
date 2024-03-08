@@ -1,0 +1,59 @@
+.advertisement
+{
+	width:100px;
+	height:150px; 
+	border-color:black;
+	border-width:2px; 
+	background-color:gray; 
+	color:white;
+	position:absolute;
+	top: 10px;
+	left: 10px;
+
+
+}
+
+
+.content{
+	width: 70%;
+}
+.logo{
+	position: relative;
+	left: 150px;	
+}
+
+.logo img{
+	width: 250px;
+}
+
+
+
+.title{
+	position: relative;
+	left: 450px;
+	top: -80px;
+}
+
+.image{
+	position: relative;
+	left: 150px;
+}
+
+.image img{
+	width: 250px;
+	float: left;
+}
+
+.main{
+	position: relative;
+	left: 155px;
+}
+
+p{
+	text-align: center;
+}
+
+.linkk{
+	position: relative;
+	text-align: center;
+}
