@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    text-align: center;
+    margin-top: 100px;
+    height: 17vh;
+}
+.searchbar{
+    
+    height: 10vh;
+    background-color: rgb(234, 233, 230);
+    text-align: center;
+}
+
+#text-space{
+    width: 250px;
+    height: 20px;
+    margin: 2px;
+
+}
+.box1{
+    
+    padding-top :5px ;
+    text-align: center;
+    background-color: aqua;
+    width: 40%; 
+    margin: 3px;
+    
+
+}
+.box2{
+    width: 25%;
+    margin: 3px;
+    padding: 2px;
+    background-color: rgb(47, 229, 229);
+    text-align: center
+}
+
+.box3{
+    
+    text-align: center;
+    width: 45%;
+    background-color: rgb(16, 180, 180);
+    margin: 3px;
+}
+
+
+
+.navigation {
+    height: 12vh;
+    width: 100%;
+    display: flex;
+    
+}
+.navigation a{
+    display: block;
+}
+#archive{
+    margin: 5px;
+    display: inline;
+}
+
+.footer{
+    margin-top: 20px;
+     text-align: center;
+}
