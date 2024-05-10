@@ -11,7 +11,7 @@ $(document).ready(function() {
       onSlideAfter: function (slideElement, oldIndex, newIndex) {
         $("#pager").text(newIndex + 1);
         $("#pager").text(slider.getCurrentSlide() + 1);
-      },
+      }
     });
   
     
