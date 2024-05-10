@@ -10,9 +10,10 @@ $(document).ready(function() {
       pagerCustom: '#pager',
       onSlideAfter: function (slideElement, oldIndex, newIndex) {
         $("#pager").text(newIndex + 1);
+        $("#pager").text(slider.getCurrentSlide() + 1);
       },
     });
   
-    $("#pager").text(slider.getCurrentSlide() + 1);
+    
   });
 
