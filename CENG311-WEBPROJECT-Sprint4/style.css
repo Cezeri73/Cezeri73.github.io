@@ -1,0 +1,466 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* Here the styling code for logo */
+.logo img {
+  right: 40px;
+  height: 100px;
+  background-color: aquamarine;
+  border-radius: 30px;
+
+  display: block;
+  flex-shrink: initial;
+}
+
+/* Logo css finish here */
+
+/*Sytle part for Header Part */
+header {
+  font-family: fantasy;
+  font-size: large;
+  text-align: center;
+  color: rgb(27, 221, 124);
+  text-orientation: sideways;
+
+  background-color: white;
+  height: 150px;
+  vertical-align: middle;
+}
+/* Header css part is done here */
+
+/*Sytle part for navigation part  start here */
+#navigation {
+  padding-top: 25px;
+  justify-content: space-between;
+
+  justify-items: right;
+
+  width: 60%;
+  display: flex;
+
+  height: 200px;
+
+  color: aqua;
+  background-color: white;
+
+  margin: auto;
+}
+
+/*Sytle part for navigation links  start here*/
+.nav-links a {
+  text-shadow: rgb(20, 20, 20) 1px 0 10px;
+  text-align: center;
+
+  height: 30px;
+  font-weight: bold;
+  float: right;
+  vertical-align: middle;
+
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  height: 50px;
+  width: 55px;
+
+  float: left;
+
+  text-decoration: none;
+
+  margin: 33px;
+  border-radius: 10px;
+  color: rgb(0, 2, 6);
+}
+/* ---Css for navigation part is done here----*/
+
+/* Style for links that remove the bottom line */
+a {
+  text-decoration: none;
+}
+
+/*Sytle part  heihgt of body*/
+body {
+  min-height: 100px;
+}
+
+/*Sytle part for acvities.html page */
+.activities {
+  display: block;
+
+  box-sizing: border-box;
+  margin: auto;
+}
+
+.info-container {
+  display: block;
+  margin-top: 20px;
+}
+.info-container a {
+  text-align: center;
+  margin: 17px;
+}
+.activities .box {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  justify-content: space-between;
+
+  border-radius: 15px;
+  display: flex;
+  height: 150px;
+  width: auto;
+
+  margin-top: 30px;
+  border: 1px;
+  margin-top: 60px;
+  gap: 20px;
+}
+.baslik {
+  text-align: center;
+  width: 20%;
+  background-color: red;
+  color: rgb(248, 247, 247);
+}
+.aciklama {
+  text-align: center;
+  width: 40%;
+}
+.foto {
+  text-align: right;
+  width: 40%;
+}
+.box img {
+  height: 150px;
+  width: 310px;
+  border-radius: 5px;
+}
+/* ----------- Activities.html styling ended here ----------- */
+
+/*Sytle part for content id that all pages include it  */
+#content {
+  background-color: white;
+  width: 75vi;
+  min-height: 100vh;
+  height: 1050px;
+
+  margin: auto;
+  margin-bottom: 5px;
+}
+
+/* This style is for AboutUs.html */
+.aboutus_content {
+  display: block;
+}
+#video_about {
+  width: 75vi;
+  height: 50vh;
+  margin: auto;
+}
+
+#about_hak {
+  text-align: center;
+}
+
+#main_hak {
+  text-align: center;
+  font-style: italic;
+  font-size: xx-large;
+}
+#video_about iframe {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  height: 450px;
+  align-items: center;
+  border-radius: 5px;
+}
+/* ------------AboutUs css End --------------- */
+
+/* This styling is for Contact.html */
+
+.form-container {
+  box-shadow: 0 4px 8px 0 rgba(13, 13, 13, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  width: 70%;
+  height: fit-content;
+  margin: 0 auto;
+}
+.form-container h3 {
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.info-container {
+  text-align: center;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+}
+
+input[type="submit"]:hover {
+  background-color: #baf0bd;
+}
+.contact-links a {
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: rgb(4, 4, 4);
+  text-decoration: none;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+#mapArea {
+  color: aliceblue;
+  background-color: antiquewhite;
+}
+.mapArea h3 {
+  text-align: center;
+}
+iframe {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  width: 100%;
+}
+
+#clock {
+  float: right;
+  position: static;
+  top: 10px; /* Yukarıdan uzaklık */
+  right: 10px; /* Sağdan uzaklık */
+  font-size: 1.5em; /* Yazı büyüklüğü */
+  background-color: #ffffff; /* Arka plan rengi */
+  padding: 10px; /* İç boşluk */
+  border-radius: 5px; /* Köşe yuvarlaklığı */
+}
+/* End of the Contact.htmll css part */
+
+/* styling part for donation.html */
+#currency-rates {
+  text-align: center;
+}
+.Donation-contentPart {
+  flex-wrap: wrap;
+  background-color: white;
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+.pic .img {
+  gap: 7px;
+  object-fit: cover;
+  width: 100%;
+  align-items: center;
+}
+.Donation-contentPart .box {
+  text-align: center;
+  width: 31%;
+  height: 420px;
+  background-color: white;
+
+  border-radius: 10px;
+
+  margin: 40px;
+  display: block;
+  margin: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.comment p {
+  margin-top: 20px;
+}
+.Donation-contentPart #bagis-text {
+  margin-top: 100px;
+  width: fit-content;
+}
+.Donation-contentPart #bagis-button {
+  margin-top: 5px;
+  margin-left: 10px;
+  width: 35%;
+  background-color: rgb(31, 173, 78);
+  color: white;
+  border: none;
+  line-height: 3;
+  border-radius: 5px;
+}
+#bagis-link {
+  text-decoration: none;
+  color: white;
+}
+/* ----End of the donation.html css---- */
+
+/* Here styling is for index.html that include main_logo parts these are seperate boxes */
+
+.main_logo {
+  width: 600px;
+  height: 200px;
+  margin: auto;
+}
+
+.main_logo img {
+  width: 180px;
+  height: 180px;
+  margin-left: 13px;
+  margin-top: 7px;
+}
+
+.main2_logo {
+  width: 900px;
+  height: 500px;
+  margin: auto;
+  margin-top: 30px;
+  display: flex;
+}
+
+.main3_logo {
+  width: 280px;
+  height: 400px;
+  justify-content: space-between;
+  margin-left: 10px;
+  margin-top: 15px;
+}
+
+.main4_logo {
+  width: 250px;
+  height: 250px;
+  margin-left: 13px;
+}
+
+.main4_logo img {
+  width: 250px;
+  height: 250px;
+}
+
+.main5_logo {
+  text-align: center;
+  width: 250px;
+  height: 30px;
+  margin-left: 13px;
+  margin-top: 20px;
+  border-radius: 80px;
+}
+#btn {
+  text-align: center;
+}
+#btn a {
+  text-align: center;
+  margin-top: 5px;
+  margin-left: 10px;
+  width: 150px;
+  background-color: rgb(134, 198, 159);
+  color: rgb(1, 1, 1);
+  border: none;
+  line-height: 2;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.main5_logo a {
+  text-align: center;
+
+  margin-top: 5px;
+  margin-left: 10px;
+  width: 150px;
+  background-color: rgb(134, 198, 159);
+  color: rgb(1, 1, 1);
+  border: none;
+  line-height: 4;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/* THe index.html css part is done here */
+
+/* The Gallery.html css start here */
+
+/*Gallery css styling is finish here */
+.slider {
+  text-align: center;
+  width: 80%; /* Galerinin genişliği */
+  margin: 0 auto; /* Ortalamak için */
+}
+
+/* Resimler için sabit boyut */
+.slider img {
+  width: 100%; /* Resim genişliği */
+  height: 450px; /* Resim yüksekliği */
+  object-fit: cover; /* Kesmeden doldur */
+  border: 5px solid #000; /* Varsayılan siyah kenarlık */
+}
+
+/* Slick Carousel için özel stiller */
+.slick-prev {
+  left: -30px; /* Sol ok için konum */
+  background-color: black;
+}
+.slick-next {
+  right: -30px; /* Sağ ok için konum */
+  background-color: black;
+}
+/*The Css for footer effect all pages because of they have same footer */
+
+#foot {
+  height: 75px;
+  width: 100%;
+  margin: auto;
+  background-color: rgb(27, 221, 124);
+
+  text-align: center;
+  margin-bottom: -10px;
+  margin-top: 30px;
+  position: relative;
+  bottom: 0;
+  display: block;
+  border-radius: 10px;
+}
+
+#foot a {
+  font-family: fantasy;
+  font-weight: bold;
+  border-radius: 5px;
+  background-color: rgb(251, 252, 252);
+  color: rgb(4, 4, 4);
+  text-decoration: none;
+  margin: 40px;
+  justify-content: space-between;
+}
+#foot p {
+  color: rgb(245, 245, 243);
+}
+/*End of the css for Footer */
+
+.misyon {
+  
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: large;
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: center;
+  justify-content: center;
+}
+
+.vizyon {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+
+  font-size: large;
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: center;
+  justify-content: center;
+}
