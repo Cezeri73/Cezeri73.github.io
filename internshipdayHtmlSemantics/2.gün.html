@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>InternShipDay2</title>
+  </head>
+  <body>
+    <header  style="text-align: center; color:coral">
+      <h1>Golden Cities</h1>
+    </header>
+
+    <nav aria-label="here is navigation" style="text-align: center;">
+        <ul style="background-color:rgb(237, 241, 242) ; list-style-type: none;">
+            <li><a href="#ankara">Ankara</a></li>
+            <li><a href="#istanbul">Istanbul</a></li>
+            <li><a href="#izmir">İzmir</a></li>
+            </ul>
+        </ul>
+    </nav>
+
+   <main>
+    <section aria-label="Text About Ankara" style="text-align: center;" id="ankara">
+        <h1>ANKARA</h1>
+        <p>
+          Ankara (/ˈæŋkərə/ ANG-kər-ə, US also /ˈɑːŋ-/ AHNG-kər-ə; Turkish:
+          [ˈaŋkaɾa] ⓘ), [b] historically known as Ancyra[c] and Angora,[d][15] is
+          the capital of Turkey. Located in the central part of Anatolia, the city
+          has a population of 5.1 million in its urban center and 5.8 million in
+          Ankara Province,[5][4] making it Türkiye's second-largest city after
+          Istanbul, but first by the urban area (4,130 km2).
+        </p>
+        <aside>
+          <img src="https://uo.asbu.edu.tr/sites/idari_birimler/uo.asbu.edu.tr/files/inline-images/Ankara.jpg" alt="">
+        </aside>
+      </section>
+      <hr>
+
+      <section aria-label="text about İstanbul" style="text-align: center;" id="istanbul">
+        <h1>İSTANBUL</h1>
+        <p>
+          Istanbul[b] is the largest city in Turkey, straddling the Bosporus
+          Strait, the boundary between Europe and Asia. It is considered the
+          country's economic, cultural and historic capital. The city has a
+          population of over 15 million residents, comprising 19% of the
+          population of Turkey,[3] and is the most populous city in Europe[c] and
+          the world's fifteenth-largest city.
+        </p>
+        <aside>
+          <img src="https://cdn.getyourguide.com/img/tour/5e6e5a0025203.jpeg/145.jpg" alt="">
+  
+        </aside>
+      </section>
+      <hr>
+
+      <section aria-label="text about İzmir" style="text-align: center;" id="izmir">
+        <h1>İZMİR</h1>
+        <p>
+            Izmir is a metropolitan city in the western extremity of Turkey and
+            the third most populous city in Turkey, after Istanbul and Izmir.
+            Once the ancient city of Smyrna, İzmir is now a modern, developed,
+            and busy commercial center, set around a huge bay and surrounded by
+            mountains. The broad boulevards, glass-fronted buildings and
+            modern shopping centers are dotted with traditional red-tiled roofs,
+            the 18th century market, and old mosques and churches, although
+            the city has an atmosphere more of Mediterranean 
+            Europe than,traditional Turkey.
+            İzmir owes its position as an economically and socially dynamic city
+            to its location, climate and the fact that it has been a home to many different
+            cultures and religions. Persians, Ancient Greeks, Assyrians, Romans, Byzantines
+            and Ottomans are just a few of the dozens of different civilizations
+            that the city has hosted throughout its long history.
+        </p>
+        <aside>
+          <img src="https://media.istockphoto.com/id/468667229/tr/foto%C4%9Fraf/aerial-view-of-illuminated-izmir-near-the-bund-at-night.jpg?s=612x612&w=0&k=20&c=5by_wtmZIlAaY11dHeOpH4nUcYjXTzWfVNIIO8MMK-8=" alt="">
+  
+        </aside>
+      </section>
+<br>
+<hr>
+
+      <section>
+        <form autocomplete="on" style="text-align: center; background-color:beige"  aria-label="form" action="" method="post">
+         
+         <label for="ad">Adiniz:</label> 
+         <input type="text"  name="name" aria-label="Adiniz :" required>
+         <br>
+         <label for="soyad">Soyadiniz:</label>
+         <input type="text" name="surname" aria-label="Soyadiniz :" required>
+         <br>
+         <label for="email">Emailiniz:</label>
+         <input type="email" name="email" aria-label="Emailiniz :" required>
+         <br>
+         <label for="telefon">Telefon:</label>
+         <input type="text" name="phone" pattern="[0-9]{10}" >
+         <br>
+         <label for="sehirSec">Gezmek istediğiniz Şehir</label>
+         <select name="city" aria-label="Seçiniz :" required>
+          <option value="izmir">İzmir</option>
+          <option value="istanbul">İstanbul</option>
+          <option value="istanbul" selected>Ankara</option> 
+         </select>
+         <br>
+         <button type="submit" aria-label="button">Gönder</button>
+         <button type="reset">Reset</button>
+
+
+        </form>
+        
+      </section>
+    
+   </main>
+
+
+   <footer aria-label="footer"  style="text-align: center;">
+    <p>Copyright &copy; 2024</p>
+   </footer>
+  </body>
+</html>
