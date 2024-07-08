@@ -1,0 +1,123 @@
+
+body{
+    
+      background-image: url(https://cdn.photoroom.com/v1/assets-cached.jpg?path=backgrounds_v3/black/Photoroom_black_background_extremely_fine_texture_only_black_co_a4384a80-67ef-40ef-98f3-3bb460bf6e1f.jpg);
+    
+}
+
+nav{
+    
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+}
+
+nav a{
+    border-radius: 3px;
+    border: 2px solid white;
+    color: rgb(0, 136, 255);
+    text-decoration: none; background-color: aqua
+}
+
+header{
+
+    
+    border: 5px solid;
+    text-align: center;
+    color: aliceblue;
+    background-color: rgb(245, 143, 11);
+    border-radius: 10px;
+    box-shadow: 5px 10px ;
+    
+}
+header h1{
+    color: aquamarine"
+}
+header p{
+    color: rgb(2, 243, 163)
+}
+
+header b{
+    color: black
+}
+
+figure{
+    text-align: center;
+    
+    border-radius: 10px;
+    border-style: dotted;   
+}
+figure img{
+    border: 5px solid rgb(252, 210, 206) ;
+    border-radius: 3px;
+    width: 330px;
+    height: 500px;
+}
+
+section {
+    background-color: rgb(210, 236, 236);
+          width: 1100px;
+          margin: auto;
+}
+
+
+
+
+#egitim_deneyim{
+    
+    color: rgb(242, 143, 13);
+    font-family: fantasy;
+
+}
+#egitim_deneyim h2{
+    text-align: center;
+}
+#image_and_BasicInfo section ul{
+  
+    border: 5px solid ;
+    color: rgb(6, 132, 243);
+      border-radius: 5px;
+}
+#egitim_deneyim section{
+    border: 5px solid ;
+    border-radius: 3px;
+}
+#yetenek_ilgi{
+    margin-left: 40%;
+    text-align: center;
+   display: inline-block;
+    background-color: aliceblue;
+     color: rgb(40, 145, 145);
+     border: solid 5px;
+
+}
+#iletisim{
+    border: 5px solid;
+    margin-left: 38%;
+    text-align: center;
+    display: inline-block;
+    background-color: aliceblue;
+    color: rgb(249, 7, 7)
+}
+
+#form{
+    
+    text-align: center; color: aliceblue
+}
+form{
+   margin-left: auto;
+   margin-right: auto;
+
+    background-color: aliceblue;
+    border: 5px solid ;
+    border-radius: 5px;
+    color: aqua;
+}
+
+footer{
+    text-align: center; background-color: rgb(234, 181, 181)
+}
