@@ -1,0 +1,160 @@
+body {
+  background-image: url(https://cdn.photoroom.com/v1/assets-cached.jpg?path=backgrounds_v3/black/Photoroom_black_background_extremely_fine_texture_only_black_co_a4384a80-67ef-40ef-98f3-3bb460bf6e1f.jpg);
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 90%;
+  
+  text-align: center;
+  display: flex;
+
+  align-items: center;
+  justify-content: space-around;
+  font-size: large;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 20px;
+}
+
+nav a {
+  border-radius: 3px;
+  border: 2px solid white;
+  color: rgb(0, 136, 255);
+  padding: 10px;
+  text-decoration: none;
+  background-color: aqua;
+}
+a {
+  text-decoration: none;
+}
+header {
+    margin-top: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  width: max-content;
+  border: 5px solid;
+  text-align: center;
+  color: aliceblue;
+  background-color: rgb(245, 143, 11);
+  border-radius: 10px;
+  box-shadow: 5px 10px;
+}
+
+header h1 {
+  font-weight: 800;
+  color: rgb(251, 251, 251);
+  text-decoration-line: underline;
+  text-decoration-color: rgb(8, 95, 237);
+  text-decoration-style: dotted;
+}
+header p {
+  letter-spacing: 3px;
+  text-indent: 5px;
+  text-transform: capitalize;
+  text-transform: lowercase;
+  text-transform: initial;
+  color: rgb(206, 238, 227);
+  line-height: normal;
+}
+
+header b {
+  color: black;
+}
+
+figure {
+  text-align: center;
+
+  border-radius: 10px;
+  border-style: dotted;
+}
+figure img {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(255, 255, 255, 0.19);
+  margin: 19px;
+  border: 5px solid rgb(255, 255, 255);
+  border-radius: 3px;
+  width: 330px;
+  height: 500px;
+}
+
+#image_and_BasicInfo section {
+  width: max-content;
+  background-color: rgb(255, 200, 0);
+
+  margin: auto;
+}
+
+#egitim_deneyim {
+  width: max-content;
+  margin-left: auto;
+  margin-right: auto;
+  color: rgb(242, 143, 13);
+  font-family: fantasy;
+}
+#egitim_deneyim h2 {
+  text-align: center;
+}
+#image_and_BasicInfo section ul {
+  border: 5px solid;
+  color: rgb(6, 132, 243);
+  border-radius: 5px;
+}
+#image_and_BasicInfo section ul li {
+  display: inline-block;
+  margin: 20px;
+  width: max-content;
+}
+#egitim_deneyim section {
+  border: 5px solid;
+  border-radius: 3px;
+}
+#yetenek_ilgi {
+  width: 400px;
+
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+
+  background-color: aliceblue;
+  color: rgb(40, 145, 145);
+  border: solid 5px;
+}
+#iletisim {
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px solid;
+
+  text-align: center;
+
+  background-color: aliceblue;
+  color: rgb(249, 7, 7);
+}
+
+#form {
+  text-align: center;
+  color: aliceblue;
+}
+form {
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+
+  background-color: aliceblue;
+  border: 5px solid;
+  border-radius: 5px;
+  color: aqua;
+}
+
+footer {
+  margin-top: 20px;
+  border: 2px solid white;
+  border-radius: 5px;
+  text-align: center;
+  background-color: rgb(255, 0, 0);
+  color: aliceblue;
+}
+footer p {
+  text-shadow: 1px 0px;
+}
