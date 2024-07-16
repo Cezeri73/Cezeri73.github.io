@@ -1,0 +1,86 @@
+.container {
+  background-color: aliceblue;
+  display: grid;
+
+  grid-template-rows: 200px 800px 100px;
+  grid-template-columns: 30% 70%;
+  grid-template-areas:
+    "header header"
+    "aside main"
+    "footer footer";
+}
+
+.e1 {
+  color: aliceblue;
+
+  background-image: url(https://static.vecteezy.com/system/resources/previews/013/387/749/non_2x/tropical-leaf-seamless-pattern-line-art-style-with-green-background-vector.jpg);
+  text-align: center;
+  background-repeat: unset;
+  background-color: rgb(219, 241, 229);
+  grid-area: header;
+}
+.e1 a {
+  margin: 15px;
+}
+
+a:hover {
+  color: rgb(0, 0, 0);
+  background-color: rgb(0, 255, 247);
+}
+a:link {
+  color: rgb(0, 0, 0);
+}
+nav a:visited {
+  color: rgb(255, 255, 255);
+}
+a:active {
+  color: blue;
+}
+.e2 {
+  height: max-content;
+  grid-area: aside;
+  height: max-content;
+}
+.kategoriler {
+    margin-top: 25px;
+
+    background-color: beige;
+  border: dotted 2px orange;
+  border-radius: 3px;
+}
+.sonYazilar {
+    border: dotted 2px orange;
+    border-radius: 3px;
+  background-color: aquamarine;
+}
+.vecizeler {
+    border: dotted 2px orange;
+  border-radius: 3px;
+  background-color: rgb(221, 241, 233);
+}
+.e3 {
+  color: rgb(0, 0, 0);
+  justify-content: center;
+  grid-area: main;
+  background-color: rgb(255, 255, 255);
+}
+.yazi {
+  background-color: aquamarine;
+  text-indent: 5px;
+
+  text-align: center;
+  margin: 25px 15px;
+  border: 1px orange double;
+  border-radius: 10px;
+}
+
+.e4 {
+    border: solid 2px orange ;
+    border-radius: 5px;
+  text-align: center;
+  grid-area: footer;
+  background-color: rgb(143, 250, 198);
+}
+.e4 a {
+  margin-left: 30px;
+}
