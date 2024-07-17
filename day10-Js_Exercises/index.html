@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script src="script.js" ></script>
+
+
+
+</head>
+<body>
+ <h2 > This is JavaScript Exercises Page</h2>
+
+ <script >
+
+     //artihmetic exercises with let
+     /*
+
+
+     let x = 10 ;
+     let y = 15 ;
+     let z = x+y ;
+     x++;
+     let u = x*y ;
+     let w = x/y ;
+     //window.alert(x<y);  // true
+
+    // window.alert(typeof (w));
+
+     var e = 3.25 ;
+     var f =4 ;  //this is not recommended for new browsers
+     var isim = "murat" ;
+     var soyisim = "Kaynar " ;
+     window.alert(isim + soyisim);
+     window.alert("e+ f : " + (e+f));
+     window.alert(z);
+     const isim1 ="Semanur Kaynar - " ;
+     const tarih ="17 Temmuz 2024";
+     const isimTarih = isim1 + tarih;
+     window.alert(typeof isimTarih);  //string
+     window.alert()
+     window.alert(isimTarih);
+
+
+
+     const person = { name : "Murat", surname :"Kaynar",age:29}; // object created
+    window.alert(
+
+        person.age +
+        person.name+
+        person.surname
+                )
+
+
+    //let can not be redeclared, but it can be used in different blocks
+     /**
+      * let x = 2;
+      *
+      * {
+      *     let x = 3;
+      * }
+      *
+      * {
+      *     let x = 4;
+      * }
+      *
+      *  /*
+      *    const PI = 3.141592653589793;
+      * PI = 3.14;      // This will give an error
+      * PI = PI + 10;   // This will also give an error
+      */
+     let  num = 5 ;
+     let day = "10" ;
+     let text = "Summer Intern 2024  " ;
+        document.write(text.charAt(2)+ "<br>");
+
+        document.write(text.length + "<br>");
+
+        document.write((text.at(10 ) + "<br>"));
+
+     // The newer version of the those are at() was introduces at ES2022
+
+         document.write(text.at(8) + "<br>");
+
+
+
+
+         document.write(text.substring(2,8)+ "<br>");
+
+         document.write(text.toLowerCase() + "<br>");
+
+         document.write(text.toUpperCase() + "<br>");
+
+         document.write(text.concat("-17 TEMMUZ 2024 ") + "<br>");
+
+         document.write(text.trim()  + "<br>");
+
+         document.write(day.padStart(10,3) + "<br>");
+
+         document.write(day.padEnd(5,8) + "<br>");
+
+         let newNum = num.toString() ;
+         document.write("This is a string version of num : " + newNum + "<br>");
+
+
+
+         let repeatetText = text.repeat(2);
+         document.write(repeatetText + "<br>")
+         document.write(text.replace("Summer","Temmuz" ) + "<br>");
+
+         document.write(text.split("") + "<br>");
+
+         document.write(text.indexOf("Temmuz") + "<br>"); // Not found so -1 as a result .
+         document.write(text.search("Sum") + "<br>");
+
+         document.write(text.match("er")  + "<br>");
+         document.write(text.includes("er")  + "<br>");
+
+     myNumber = 32
+         document.write(
+     myNumber.toString(32) +" -" +
+     myNumber.toString(16) + " -" +
+     myNumber.toString(12) +" -" +
+     myNumber.toString(10) +" -" +
+     myNumber.toString(8) +" -" +
+     myNumber.toString(2)  + "<br>");
+
+     let x = new Number(123) ;  //not recomended
+
+     document.write(typeof x + "<br>");
+
+     let y = new Boolean(false); // do not create boolean object it slowdown the execution speed .
+     document.write(y + "<br>");
+
+     if(num <5){
+         document.write("The number is less than 5 "  + "<br>")
+     }else
+     {
+         document.write("The number is bigger than 5"  + "<br>");
+     }
+
+
+     let num2;
+     num2=2;
+     switch (num2) {
+         case 1: document.write("The nUMBER İS 1 "  + "<br>")
+         break;
+         case 2 :document.write("The Number is 2"  + "<br>")
+         break;
+         default : document.write("No number"  + "<br>");
+
+     }
+
+ </script>
+
+
+
+
+
+
+</body>
+</html>
