@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Day12 Js Functions</title>
+</head>
+<body>
+<h1>Day12 Javascript Functions</h1>
+<p id="demo"></p>
+<p>Outside myFunction() carName is undefined.</p>
+
+<p id="demo1"></p>
+<p id="demo2"></p>
+<p id="hesapla"></p>
+<button onclick="merhaba(),hesapla()">Tıkla</button>
+<button onclick="temizle()">Temizle</button>
+
+
+<script>
+
+
+    let text = "The temperature is " + toCelsius(77) + " Celsius.";
+    document.getElementById("demo").innerHTML = text;
+
+    function toCelsius(fahrenheit) {
+        return (5 / 9) * (fahrenheit - 32);
+    }
+
+
+    //Burada a ve b çarpılıp geri sonuç geri döndürüldü
+    function hesapla(a, b) {
+
+        return a * b;
+
+
+    }
+
+    let sonuc = hesapla(5, 6);
+    document.getElementById("hesapla").innerHTML = sonuc;
+
+
+    function merhaba() {
+        text = "Murat Kaynar";
+        document.getElementById("demo").innerHTML = text;
+    }
+
+    function temizle() {
+        text = "";
+        document.getElementById("demo").innerHTML = text;
+    }
+    let tex2t = "Outside: " + typeof carName;
+    document.getElementById("demo1").innerHTML = text2;
+
+    function myFunction() {
+        let carName = "Volvo";
+        let text2 = "Inside: " + typeof carName + " " + carName;
+        document.getElementById("demo2").innerHTML = text2;
+    }
+
+    myFunction();
+</script>
+</body>
+</html>
