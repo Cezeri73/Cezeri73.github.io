@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript Array</title>
+</head>
+<body>
+<h1 style="text-align: center">Day13 Java Script Arrays</h1>
+<p id="demo"></p>
+<p id="at"></p>
+<p id="at1"></p>
+<p id="at2"></p>
+<p id="concatt"></p>
+<p id="push"></p>
+<p id="pop"></p>
+<p id="shift"></p>
+<p id="unShift"></p>
+<p id="splice"></p>
+<p id="splice2"></p>
+<p id="forEach"></p>
+<p id="map"></p>
+<p id="dublex"></p>
+<p id="nameSurname"></p>
+<p id="filter"></p>
+<p id="reduce"></p>
+<button STYLE="background-color: aqua" onclick="bastir()"> TIKLA</button>
+
+<script>
+    //Here we defined a array with 4 string inside it .
+    //With the bastir() we wrrite it to the p element with id demo
+
+    let cities = ["İstanbul", "Ankara", "İzmir", "Bursa", "Konya"];
+
+    function bastir() {
+
+
+        //Some Array Methods Exercises ( pop , push,shift,unshift, splice )
+        document.getElementById("demo").innerHTML = "Origiinal Array : " + cities;
+        document.getElementById("at").innerHTML = "1. element of array :  " + cities[0];
+        document.getElementById("at1").innerHTML = " 2. element of array :" + cities[1] + " </br> ";
+        document.getElementById("at2").innerHTML = "3. element of array  :" + cities[2];
+        document.getElementById("concatt").innerHTML = "Concat Operation :" + cities[0].concat(" Güzeldir");
+        cities.push(" Şırnak");
+        document.getElementById("push").innerHTML = "Push operation : Şırnak Added : " + cities;
+        cities.pop();
+        document.getElementById("pop").innerHTML = "Pop Operation : LİFO  -- the last element removed : " + cities;
+        cities.shift();
+        document.getElementById("shift").innerHTML = "Shift Operation delete the first element : " + cities;
+        cities.unshift("Asya", "Türkiye");
+        document.getElementById("unShift").innerHTML = "Unshift Element add element to the beginning of the Array: " + cities;
+        cities.splice(2, 2, "Denizli", "Gaziantep");
+        document.getElementById("splice").innerHTML = "Splice addd or remove items but it overwrite on array (adding) :" + cities;
+        cities.splice(2, 2);
+        document.getElementById("splice2").innerHTML = "Splice addd or remove items but it overwrite on array (Remove from 2. index) :" + cities;
+
+
+        //Foreach
+        let numbers = [1, 2, 3, 4, 5, 6];
+        numbers.forEach(display);
+
+        function display(element) {
+            console.log(element);
+        }
+
+        function dublex(item) {
+            return item * 2;
+        }
+
+        document.getElementById("dublex").innerHTML = "The items multiply by 2 : " + numbers.map(dublex);
+        let fruits = ["apple", "Orange", "banana", "coconut"];
+        fruits.forEach(displayFruits)
+
+        function displayFruits(item) {
+            console.log(": " + item)
+        }
+
+        function UpperCasing(item) {
+            console.log(item.toUpperCase())
+        }
+
+        fruits.forEach(UpperCasing)
+
+        //Map
+
+        let Square = [4, 9, 16, 25, 36, 49, 64, 81];
+        document.getElementById("map").innerHTML = "New Array = " + Square.map(Math.sqrt)
+
+
+        const persons = [
+            {firstname: "Malcom", lastname: "Reynolds"},
+            {firstname: "Kaylee", lastname: "Frye"},
+            {firstname: "Jayne", lastname: "Cobb"}
+        ];
+
+        document.getElementById("nameSurname").innerHTML = persons.map(getFullName);
+
+        function getFullName(item) {
+            return [item.firstname, item.lastname].join(" ");
+        }
+        let numberss = [ 0,1,2,3,4,5,6,7,8,9,10];
+        document.getElementById("filter").innerHTML=numberss.filter((n) => n > 3);
+
+
+        document.getElementById("reduce").innerHTML =numberss.reduce((a,b) => (a+b));
+
+
+
+        //Here we  inwoke the function
+
+
+
+    }
+</script>
+</body>
+</html>
