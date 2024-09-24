@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Hoşgeldiniz!</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Anasayfa</a></li>
+                <li><a href="#">Hakkımda</a></li>
+                <li><a href="#">Çalışmalarım</a></li>
+            </ul>
+        </nav>
+        <button id="theme-toggle">Karanlık Mod</button>
+    </header>
+
+    <main>
+        <section id="comments-section">
+            <h2>Yorumlar</h2>
+            <input type="text" id="comment-input" placeholder="Yorumunuzu yazın">
+            <button id="add-comment-btn">Yorum Ekle</button>
+            <ul id="comment-list"></ul>
+        </section>
+
+        <section id="works-section">
+            <h2>Çalışmalarım</h2>
+            <select id="category-filter">
+                <option value="all">Tümü</option>
+                <option value="şiir">Şiir</option>
+                <option value="ödül">Ödül</option>
+            </select>
+
+            <div class="work" data-category="şiir">
+                <h2>Şiir 1</h2>
+                <p>Bu benim ilk şiirim...</p>
+            </div>
+            <div class="work" data-category="ödül">
+                <h2>Ödül 1</h2>
+                <p>Bu ödülü yarışmada kazandım...</p>
+            </div>
+        </section>
+
+        <section id="quiz-section">
+            <h2>Hangi kategori en çok ilginizi çekiyor?</h2>
+            <form id="quiz-form">
+                <label>
+                    <input type="radio" name="quiz" value="şiir"> Şiir
+                </label>
+                <label>
+                    <input type="radio" name="quiz" value="ödül"> Ödül
+                </label>
+                <button type="submit">Cevapla</button>
+            </form>
+            <div id="quiz-result"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Blog Sayfası © 2024</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
