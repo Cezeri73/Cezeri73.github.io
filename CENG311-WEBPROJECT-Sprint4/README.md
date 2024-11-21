@@ -1,4 +1,4 @@
-🌐 CENG311-WEBPROJECT-Sprint4
+**🌐 CENG311-WEBPROJECT-Sprint4
 Welcome to the CENG311-WEBPROJECT-Sprint4 repository! This project is part of the CENG311 Web Technologies course and represents the fourth sprint of the web development project.
 
 🚀 About the Project
