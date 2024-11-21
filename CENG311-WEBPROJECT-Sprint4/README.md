@@ -1,8 +1,13 @@
 **🌐 CENG311-WEBPROJECT-Sprint4
-Welcome to the CENG311-WEBPROJECT-Sprint4 repository! This project is part of the CENG311 Web Technologies course and represents the fourth sprint of the web development project.
+Welcome to the CENG311-WEBPROJECT-Sprint4 repository! 
+This project is part of the CENG311 Web Technologies course 
+and represents the fourth sprint of the web development project.
 
 🚀 About the Project
-This sprint focuses on enhancing the design, responsiveness, and interactivity of the web application using core web technologies. It serves as a practice to apply theoretical knowledge to a functional and visually appealing web project.
+This sprint focuses on enhancing the design, responsiveness,
+and interactivity of the web application using core web technologies.
+It serves as a practice to apply theoretical knowledge
+to a functional and visually appealing web project.
 
 ✨ Features
 🌟 Dynamic and interactive web pages with JavaScript functionality.
